@@ -1,11 +1,37 @@
 import React from "react";
-import '../styles/App.css';
+import Section from "../components/Section";
+import Card from "../components/Card";
+import "../styles/App.css";
+import "../styles/pages/team.css";
 
 const Team = () => {
+  const users = [
+    {
+      userName: "Jane Smith",
+      title: "Lady boss",
+    },
+    {
+      userName: "John Doe",
+      title: "Code monkey",
+    },
+    {
+      userName: "Arnold Schwarz",
+      title: "Big man",
+    },
+  ];
   return (
-    <div className="innerFrame">
-      <h1 className="title">Meet our team</h1>
-    </div>
+    <>
+      <Section>
+        <div className="teamFrame">
+          <h1 className="title">Meet our team</h1>
+          <div className="profileContainer">
+            {users.map((user) => (
+              <Card userName={user.userName} title={user.title} />
+            ))}
+          </div>
+        </div>
+      </Section>
+    </>
   );
 };
 

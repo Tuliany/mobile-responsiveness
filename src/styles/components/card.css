@@ -1,0 +1,24 @@
+.cardFrame {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.profile {
+  height: 50px;
+}
+
+.roundedBorder {
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  line-height: 0.1;
+  margin-left: 20px;
+}
