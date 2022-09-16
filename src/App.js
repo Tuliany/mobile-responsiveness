@@ -3,8 +3,8 @@ import Navbar from './components/Navbar';
 import Divider from './components/Divider';
 import About from './pages/About';
 import Team from './pages/Team';
-import BurgerMenu from './components/BurgerMenu';
 import Work from './pages/Work';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
         <Team />
         <Divider />
         <Work />
+        <Divider />
+        <Footer />
       </div>
     </div>
   );

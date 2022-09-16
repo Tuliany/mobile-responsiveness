@@ -1,7 +1,6 @@
 import React from "react";
-import "../styles/navbar.css";
+import "../styles/components/navbar.css";
 import BurgerMenu from "./BurgerMenu";
-import Divider from "./Divider";
 
 const Navbar = () => {
   return (

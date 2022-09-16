@@ -1,6 +1,6 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import "../styles/burgerMenu.css";
+import "../styles/components/burgerMenu.css";
 
 const BurgerMenu = () => {
   return (

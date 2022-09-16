@@ -1,0 +1,17 @@
+.footerFrame {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin: 20px;
+}
+
+.footerLogo {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
