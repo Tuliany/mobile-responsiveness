@@ -14,6 +14,7 @@ const Footer = () => {
           <img src="../../assets/youtube.png" alt="" className="icon" />
           </div>
           <img src="../../assets/hexagon.png" alt="" className="footerLogo" />
+          <h1>Company</h1>
       </Section>
     </>
   );
