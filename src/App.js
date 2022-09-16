@@ -4,6 +4,7 @@ import Divider from './components/Divider';
 import About from './pages/About';
 import Team from './pages/Team';
 import BurgerMenu from './components/BurgerMenu';
+import Work from './pages/Work';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <About />
         <Divider />
         <Team />
+        <Divider />
+        <Work />
       </div>
     </div>
   );
