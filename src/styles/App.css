@@ -10,7 +10,7 @@
   padding: 10px;
   max-width: 100%;
   overflow-x: hidden;
-  max-width: 100%;
+  width: 100vw;
 }
 
 .frame {
@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   padding: 5px 30px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .divider {
