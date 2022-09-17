@@ -1,4 +1,4 @@
-.footerFrame {
+.logoFrame {
   display: flex;
   justify-content: center;
   padding: 25px;
@@ -14,4 +14,11 @@
   height: 100px;
   width: 100px;
   align-self: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logoFrame {
+    width: 800px;
+    justify-content: space-around;
+  }
 }

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <Section>
-        <div className="Frame">
+        <div className="logoFrame">
           <img src="../../assets/facebook.png" alt="" className="icon" />
           <img src="../../assets/twitter.png" alt="" className="icon" />
           <img src="../../assets/linkedin.png" alt="" className="icon" />

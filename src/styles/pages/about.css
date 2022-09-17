@@ -2,25 +2,6 @@
   max-width: 800px;
   display: flex;
 }
-.f-container {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  margin-right: 20px;
-}
-
-.container {
-  border: 2px solid black;
-  border-radius: 10px;
-  margin: 20px 0px;
-  flex-basis: 0;
-}
-
-.image {
-  width: 80px;
-  height: 80px;
-  margin: 80px;
-}
 
 @media (min-width: 414px) and (max-width: 767px) {
   .aboutFrame {

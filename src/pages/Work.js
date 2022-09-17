@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "../components/Section";
-import Button from '../components/Button'
+import ImageTextCard from "../components/ImageTextCard";
 import "../styles/pages/work.css";
 import "../styles/App.css";
 
@@ -9,12 +9,11 @@ const Work = () => {
     <>
       <Section>
         <div className="workFrame">
-          <h1>Work with us</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
-          </p>
-          <Button title="contact us"/>
+          <ImageTextCard
+            title="Work with us"
+            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor."
+          />
         </div>
       </Section>
     </>

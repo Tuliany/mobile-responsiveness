@@ -2,22 +2,19 @@ import React from "react";
 import "../styles/pages/about.css";
 import "../styles/App.css";
 import Section from "../components/Section";
-
+import ImageTextCard from "../components/ImageTextCard";
 
 const About = () => {
   return (
     <Section>
       <div className="aboutFrame">
-        <div className="f-container">
-          <h1 className="title">About</h1>
-          <h3 className="breadText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </h3>
-        </div>
-        <div className="container">
-          <img src="../../assets/paint.png" alt="painting" className="image" />
-        </div>
+        <ImageTextCard
+          title="About"
+          text
+          breadText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          image
+        />
       </div>
     </Section>
   );
