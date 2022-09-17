@@ -22,3 +22,13 @@
   line-height: 0.1;
   margin-left: 20px;
 }
+
+/* @media (min-width: 767px) and (max-width: 1024px) {
+  .cardFrame {
+    margin: 20px 10px 20px 0px;
+  }
+
+  .userInfo {
+    margin-left: 10px;
+  }
+} */
