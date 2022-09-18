@@ -6,7 +6,7 @@ import "../styles/components/imageTextCard.css";
 const ImageTextCard = ({ title, breadText, text, paragraph, image }) => {
   return (
     <Section>
-      <div className="f-container">
+      <div className="fContainer">
         <h1 className="title">{title}</h1>
         {text
           ? breadText && <h3>{breadText}</h3>
