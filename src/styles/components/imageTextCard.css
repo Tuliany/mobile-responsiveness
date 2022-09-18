@@ -4,6 +4,7 @@
   justify-content: center;
   flex-grow: 1;
   margin-right: 20px;
+  width: 350px;
 }
 
 .container {
@@ -11,6 +12,7 @@
   border-radius: 10px;
   margin: 20px 0px;
   flex-basis: 0;
+  min-width: 350px;
 }
 
 .image {

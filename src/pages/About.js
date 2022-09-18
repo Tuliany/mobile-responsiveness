@@ -6,17 +6,19 @@ import ImageTextCard from "../components/ImageTextCard";
 
 const About = () => {
   return (
-    <Section>
-      <div className="aboutFrame">
-        <ImageTextCard
-          title="About"
-          text
-          breadText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    <>
+      <Section>
+        <div className="aboutFrame">
+          <ImageTextCard
+            title="About"
+            text
+            breadText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          image
-        />
-      </div>
-    </Section>
+            image
+          />
+        </div>
+      </Section>
+    </>
   );
 };
 

@@ -5,16 +5,15 @@
   max-width: 800px;
 }
 
-@media (min-width:414px) and (max-width:767px) {
+/* @media (min-width:414px) and (max-width:767px) {
   .innerFrame {
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: flex-start;
   }
-}
+} */
 
 @media (min-width:768px) and (max-width:1024px) {
   .innerFrame {
-    flex-direction: column;
     justify-content: space-evenly;
   }
 }
