@@ -34,4 +34,4 @@ Here are a couple of things to think about:
 
 ### Deployment
 
-Watch it live here: [Deployed here](mobile-responsiveness.netlify.app)
+Watch it live here: [Deployed here](https://mobile-responsiveness.netlify.app/)
