@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 17px 0px 0px 17px;
   background-color: #ffff;
@@ -24,8 +25,24 @@
   font-size: 20px;
 }
 
+.flexMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 textarea:focus,
 input:focus {
   outline: none;
   display: flex;
+}
+
+@media (min-width:1024px) {
+  .navbar {
+    justify-content: flex-end;
+  }
+
+  .menu-item {
+    width: 150px;
+  }
 }
