@@ -1,3 +1,9 @@
+.footerFrame {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .logoFrame {
   display: flex;
   justify-content: center;
