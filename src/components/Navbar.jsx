@@ -6,14 +6,14 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <img src="../../assets/hexagon.png" alt="company-logo" className="logo" />
-      <div className="search">
-        <input className="InputField" dir="rtl" />
-        <img
-          src="../../assets/search.png"
-          alt="search-icon"
-          className="SearchIcon"
-        />
-      </div>
+
+      <input className="InputField" dir="rtl" />
+      <img
+        src="../../assets/search.png"
+        alt="search-icon"
+        className="SearchIcon"
+      />
+
       <BurgerMenu />
     </div>
   );

@@ -25,8 +25,8 @@ const Team = () => {
         <div className="teamFrame">
           <h1 className="title">Meet our team</h1>
           <div className="profileContainer">
-            {users.map((user) => (
-              <Card userName={user.userName} title={user.title} />
+            {users.map((user, index) => (
+              <Card key={index} userName={user.userName} title={user.title} />
             ))}
           </div>
         </div>
