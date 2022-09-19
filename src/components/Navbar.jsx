@@ -17,11 +17,11 @@ const Navbar = () => {
           alt="company-logo"
           className="logo"
         />
-        <input className="InputField" dir="rtl" aria-label="search" />
+        <input className="inputField" dir="rtl" aria-label="search" />
         <img
           src="../../assets/search.png"
           alt="search-icon"
-          className="SearchIcon"
+          className="searchIcon"
         />
         {desktop ? (
           <div className="flexMenu">
