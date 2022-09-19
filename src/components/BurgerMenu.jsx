@@ -8,14 +8,14 @@ const BurgerMenu = () => {
       <a className="menu-item" href="/">
         Home
       </a>
-      <a className="menu-item" href="/salads">
-        Salads
+      <a className="menu-item" href="/about">
+        About
       </a>
-      <a className="menu-item" href="/pizzas">
-        Pizzas
+      <a className="menu-item" href="/team">
+        Team
       </a>
-      <a className="menu-item" href="/desserts">
-        Desserts
+      <a className="menu-item" href="/work">
+        Work with us
       </a>
     </Menu>
   );
