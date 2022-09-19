@@ -21,5 +21,8 @@
   align-items: self-start;
   line-height: 0.1;
   margin-left: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 300px;
+  text-overflow: ellipsis;
 }
-

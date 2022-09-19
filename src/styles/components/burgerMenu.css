@@ -68,7 +68,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   font-weight: bold;
   letter-spacing: 0.5rem;
   word-break: break-word;
