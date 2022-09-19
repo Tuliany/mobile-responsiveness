@@ -10,3 +10,9 @@
   justify-content: flex-start;
   flex-wrap: wrap;
 }
+
+@media (min-width:1024px) {
+  .teamFrame {
+    min-width: 1000px;
+  }
+}
