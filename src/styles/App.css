@@ -11,6 +11,7 @@
   max-width: 100%;
   overflow-x: hidden;
   width: 100vw;
+  background-color: white;
 }
 
 .frame {
@@ -34,10 +35,5 @@
 @media only screen and (max-width: 414px) and (min-widh: 896px) and (-webkit-device-pixel-ratio: 2) {
   .frame {
     margin-top: 120px;
-  }
-
-  .innerFrame {
-    flex-direction: column;
-    justify-content: flex-start;
   }
 }

@@ -16,6 +16,7 @@
 @media (min-width:1024px) {
   .innerFrame {
     min-width: 1000px;
+    padding: 25px 0px;
   }
 }
     

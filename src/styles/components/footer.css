@@ -6,8 +6,9 @@
 
 .logoFrame {
   display: flex;
-  justify-content: center;
-  padding: 25px;
+  justify-content: space-around;
+  padding: 25px 0px;
+  width: 100%;
 }
 
 .icon {
@@ -25,13 +26,11 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .logoFrame {
     width: 800px;
-    justify-content: space-around;
   }
 }
 
 @media (min-width: 1024px) {
   .logoFrame {
     width: 1000px;
-    justify-content: space-around;
   }
 }
