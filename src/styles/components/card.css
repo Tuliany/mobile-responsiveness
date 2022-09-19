@@ -1,6 +1,6 @@
 .cardFrame {
   display: flex;
-  margin: 20px 20px 20px 0px;
+  margin: 20px 10px 20px 0px;
 }
 
 .profile {
@@ -23,12 +23,3 @@
   margin-left: 20px;
 }
 
-/* @media (min-width: 767px) and (max-width: 1024px) {
-  .cardFrame {
-    margin: 20px 10px 20px 0px;
-  }
-
-  .userInfo {
-    margin-left: 10px;
-  }
-} */

@@ -29,3 +29,16 @@ h3,
 p {
   text-align: justify;
 }
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .contactContainer {
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactContainer {
+    height: auto;
+    align-self: flex-end;
+  }
+}

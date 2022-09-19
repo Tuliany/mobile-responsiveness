@@ -28,3 +28,10 @@
     justify-content: space-around;
   }
 }
+
+@media (min-width: 1024px) {
+  .logoFrame {
+    width: 1000px;
+    justify-content: space-around;
+  }
+}

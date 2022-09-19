@@ -18,7 +18,9 @@ const ImageTextCard = ({ title, breadText, text, paragraph, image }) => {
           <img src="../../assets/paint.png" alt="painting" className="image" />
         </div>
       ) : (
-        <Button title="contact us" />
+        <div className="contactContainer">
+          <Button title="contact us" />
+        </div>
       )}
     </Section>
   );
